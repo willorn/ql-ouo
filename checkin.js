@@ -14,8 +14,6 @@ async function checkin(cookie) {
             },
             withCredentials: true
         })
-        console.log('结果结果结果结果结果结果')
-        console.log(res)
         return res.data
     } catch (err) {
         console.log(err)
