@@ -29,7 +29,7 @@
 
 1. 添加依赖：在青龙面板中添加 `axios` 依赖
 2. 添加环境变量：在青龙面板中添加上述必要的环境变量
-3. 创建定时任务：设置每日运行 `node checkin.js` 的定时任务
+3. 创建定时任务：设置每日运行 `node ouo_checkin.js` 的定时任务
 
 ## 使用方法
 
@@ -44,14 +44,14 @@ export VPN_OUO_EMAIL='your_email@example.com'
 export VPN_OUO_PWD='your_password'
 
 # 运行脚本
-node checkin.js
+node ouo_checkin.js
 ```
 
 ### 在青龙面板中运行
 
 1. 将项目文件上传到青龙面板的脚本目录
 2. 配置好环境变量
-3. 创建定时任务，命令为 `node checkin.js`
+3. 创建定时任务，命令为 `node ouo_checkin.js`
 
 ## 通知设置
 
